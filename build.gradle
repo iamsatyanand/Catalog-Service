@@ -20,4 +20,9 @@ subprojects {
 			languageVersion = JavaLanguageVersion.of(21)
 		}
 	}
+
+	// Use JUnit Platform for all modules
+	tasks.named('test') {
+		useJUnitPlatform()
+	}
 }

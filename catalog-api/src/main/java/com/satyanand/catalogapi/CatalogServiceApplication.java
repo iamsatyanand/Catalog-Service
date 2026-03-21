@@ -3,11 +3,10 @@ package com.satyanand.catalogapi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class CatalogApiApplication {
+@SpringBootApplication(scanBasePackages = "com.satyanand")
+public class CatalogServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CatalogApiApplication.class, args);
+		SpringApplication.run(CatalogServiceApplication.class, args);
 	}
-
 }
