@@ -1,6 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
 rootProject.name = 'catalog-service'
+
+include 'catalog-api'
+include 'catalog-application'
 include 'catalog-common'
 include 'catalog-domain'
-include 'catalog-application'
 include 'catalog-infrastructure'
-include 'catalog-api'
