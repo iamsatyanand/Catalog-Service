@@ -8,6 +8,7 @@ dependencies {
 	implementation project(':catalog-application')
 	implementation project(':catalog-infrastructure')
 	implementation project(':catalog-common')
+	implementation project(':catalog-domain')
 
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
