@@ -1,7 +1,9 @@
 package com.satyanand.catalogapi.dto;
 
-import java.util.List;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+import java.util.List;
+@JsonPropertyOrder({ "id", "name", "parentId", "children" })
 public class CategoryResponse {
 
     private Long id;

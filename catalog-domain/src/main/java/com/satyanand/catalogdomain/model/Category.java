@@ -30,4 +30,8 @@ public class Category {
     public List<Category> getChildren() {
         return children;
     }
+
+    public void setChildren(List<Category> children) {
+        this.children = children;
+    }
 }
